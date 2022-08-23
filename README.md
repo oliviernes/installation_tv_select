@@ -14,7 +14,7 @@ sed -i -e 's/GR1\ B/GR1\ A/g' /home/$USER/.tzap/channels.conf
 
 # Les 2 commandes précédentes (commençant pas w_scan et sed) sont à lancer de nouveau si vous déménagez loin de votre résidence ou si les fréquences de diffusion des chaînes ont changé.
 
-cd ~ && curl https://github.com/tv-select/path/to/master.zip -L -o box.zip
+cd ~ && curl https://github.com/oliviernes/installation_tv_select/archive/refs/heads/master.zip -L -o box.zip
 
 unzip box.zip && cd box
 
