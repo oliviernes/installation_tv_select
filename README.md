@@ -16,6 +16,6 @@ sed -i -e 's/GR1\ B/GR1\ A/g' /home/$USER/.tzap/channels.conf
 
 cd ~ && curl https://github.com/oliviernes/installation_tv_select/archive/refs/heads/master.zip -L -o box.zip
 
-unzip box.zip && cd box
+unzip box.zip && mv installation_tv_select-master box && rm box.zip && cd box
 
 bash install.sh
