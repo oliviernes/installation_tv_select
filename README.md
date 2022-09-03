@@ -1,6 +1,6 @@
 # box
 
-### Instructions d'installations:
+## Instructions d'installations:
 
 sudo apt update && sudo apt install jq dvb-apps w-scan at curl
 
